@@ -10,7 +10,7 @@ from bayes_opt import BayesianOptimization
 
 
 # Read EMObanck and separate VAD
-df = pd.read_csv("Assinging_VAD_scores_BERT\DataSet\emobank.csv")
+df = pd.read_csv("VAD_multiple_regression\DataSet\emobank.csv")
 
 V, A, D = df["V"], df["A"], df["D"]
 
